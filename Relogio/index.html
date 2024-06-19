@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Relógios</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script> <!-- Link para o arquivo JavaScript -->
+</head>
+
+<body>
+    <header>
+        <h1>Loja de Relógios</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Bem-vindo à nossa Loja de Relógios</h2>
+        <p>Encontre os melhores relógios aqui.</p>
+    </section>
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="produto">
+            <img src="https://sucesso-na-vida.com/wp-content/uploads/2019/05/relogio-geneva-2.jpg" alt="Relógio 1">
+            <h3>Relógio Clássico</h3>
+            <p>R$ 199,90</p>
+            <button class="comprar-btn">Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="https://th.bing.com/th/id/OIP.hL3OdySCRMN1GuR823qfQgHaHa?rs=1&pid=ImgDetMain" alt="Relógio 2">
+            <h3>Relógio Esportivo</h3>
+            <p>R$ 299,90</p>
+            <button class="comprar-btn">Comprar</button>
+        </div>
+        <!-- Adicione mais produtos aqui -->
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contato-form" action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Loja de Relógios. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
